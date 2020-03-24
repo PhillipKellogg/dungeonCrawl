@@ -27,6 +27,9 @@ function World(props) {
       asd
       <section id="top" className="game">
         <h1 className="game__title">DUNGEON CRAWL!</h1>
+        <h2 className="game__title--sub">
+          WASD or Arrow Keys to move. J+K to talk I+L to fight!
+        </h2>
         <article className="game__playable">
           {/* <h1 className="title">Dungeon Crawl!</h1> */}
 

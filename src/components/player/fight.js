@@ -60,7 +60,7 @@ export default function fight(attackInput) {
     fightNowFalse();
     newDialogue.push("you lost....");
   } else {
-    newDialogue.push(" I to Attack \xa0\xa0\xa0\xa0 L to Heal");
+    newDialogue.push(" I to Heal \xa0\xa0\xa0\xa0\xa0\xa0 L to Attack");
   }
 
   fightingNow ? (visibility = "none") : (visibility = "visible");

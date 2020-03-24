@@ -1,0 +1,58 @@
+@import "../../Styles/Partials/fonts";
+.footer {
+  min-height: 200px;
+  width: 100%;
+  background-color: #222;
+  color: #eb9834;
+  display: flex;
+  flex-direction: column;
+  font-family: roboto;
+  &__title {
+    text-align: left;
+    justify-self: left;
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px #000;
+    // margin-bottom: -10px;
+    padding-top: 20px;
+  }
+  &__content {
+    display: flex;
+    font-display: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 50%;
+  }
+  &__icon {
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    &--github {
+      background-image: url("../../assets/icons/github.svg");
+    }
+    &--mail {
+      background-image: url("../../assets/icons/mail.svg");
+    }
+    &--linkedin {
+      background-image: url("../../assets/icons/linkedin.svg");
+    }
+  }
+  &__element {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    color: #eb9834;
+    text-shadow: 2px 2px 2px #000;
+    &:hover {
+      text-shadow: 2px 2px 2px #222;
+      color: #000;
+    }
+    // margin-top: 0;
+  }
+  &__text {
+    font-size: 1.4rem;
+    margin-top: 10px;
+  }
+}

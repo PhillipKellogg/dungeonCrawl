@@ -1,0 +1,271 @@
+.tile {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  background-color: #483b3a;
+}
+
+.floor {
+  &__1 {
+    background-image: url("../../assets/tiles/floor1.png");
+    background-position: center;
+    background-size: cover;
+  }
+  &__2 {
+    background-image: url("../../assets/tiles/floor2.png");
+    background-position: center;
+    background-size: cover;
+  }
+  &__3 {
+    background-image: url("../../assets/tiles/floor3.png");
+    background-position: center;
+    background-size: cover;
+  }
+  &__4 {
+    background-image: url("../../assets/tiles/floor4.png");
+    background-position: center;
+    background-size: cover;
+  }
+  &__5 {
+    background-image: url("../../assets/tiles/floor5.png");
+    background-position: center;
+    background-size: cover;
+  }
+  &__6 {
+    background-image: url("../../assets/tiles/floor6.png");
+    background-position: center;
+    background-size: cover;
+  }
+  &__7 {
+    background-image: url("../../assets/tiles/floor7.png");
+    background-position: center;
+    background-size: cover;
+  }
+  &__8 {
+    background-image: url("../../assets/tiles/floor8.png");
+    background-position: center;
+    background-size: cover;
+  }
+  &__9 {
+    background-image: url("../../assets/tiles/floor9.png");
+    background-position: center;
+    background-size: cover;
+  }
+  &__water {
+    background-image: url("../../assets/tiles/waterFloorTile.png");
+    background-position: center;
+    background-size: cover;
+  }
+  &__lava {
+    background-image: url("../../assets/tiles/lavaFloorTile.png");
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+.wall {
+  &__1 {
+    background-image: url("../../assets/tiles/wall1.png");
+    background-position: center;
+    background-size: cover;
+  }
+  &__2 {
+    background-image: url("../../assets/tiles/wall2.png");
+    background-position: center;
+    background-size: cover;
+  }
+  &__3 {
+    background-image: url("../../assets/tiles/wall3.png");
+    background-position: center;
+    background-size: cover;
+  }
+  &__4 {
+    background-image: url("../../assets/tiles/wallCracked.png");
+    background-position: center;
+    background-size: cover;
+  }
+  &__5 {
+    background-image: url("../../assets/tiles/wallCracked2.png");
+    background-position: center;
+    background-size: cover;
+  }
+  &__5 {
+    background-image: url("../../assets/tiles/wallflag.png");
+    background-position: center;
+    background-size: cover;
+  }
+  &__5 {
+    background-image: url("../../assets/tiles/wallflag2.png");
+    background-position: center;
+    background-size: cover;
+  }
+  &__6 {
+    background-image: url("../../assets/tiles/wallCornerLeft.png");
+    background-position: center;
+    background-size: cover;
+    background-color: #222;
+  }
+  &__7 {
+    background-image: url("../../assets/tiles/wallBottomRight.png");
+    background-position: center;
+    background-size: cover;
+    background-color: #222;
+  }
+  &__8 {
+    background-image: url("../../assets/tiles/wallRight.png");
+    background-position: center;
+    background-size: cover;
+    background-color: #222;
+  }
+  &__9 {
+    background-image: url("../../assets/tiles/wallLeft.png");
+    background-position: center;
+    background-size: cover;
+    background-color: #222;
+
+  }
+  &__10 {
+    background-image: url("../../assets/tiles/wallTopLeft.png");
+    background-position: center;
+    background-size: cover;
+    background-color: #222;
+
+  }
+  &__11 {
+    background-image: url("../../assets/tiles/wallBottomLeft.png");
+    background-position: center;
+    background-size: cover;
+    background-color: #222;
+  }
+  &__12 {
+    background-image: url("../../assets/tiles/emptyCorner.png");
+    background-position: center;
+    background-size: cover;
+    background-color: #222;
+  }
+  &__13 {
+    background-image: url("../../assets/tiles/emptyCornerRight.png");
+    background-position: center;
+    background-size: cover;
+    background-color: #222;
+  }
+  &__14 {
+    background-image: url("../../assets/tiles/emptyCornerTopRight.png");
+    background-position: center;
+    background-size: cover;
+    background-color: #222;
+  }
+  &__15 {
+    background-image: url("../../assets/tiles/emptyCornerTopLeft.png");
+    background-position: center;
+    background-size: cover;
+    background-color: #222;
+  }
+  &__16 {
+    background-image: url("../../assets/tiles/bottomLeft.png");
+    background-position: center;
+    background-size: cover;
+    background-color: #222;
+  }
+  &__water {
+    background-image: url("../../assets/tiles/waterWallTile.png");
+    background-position: center;
+    background-size: cover;
+    background-color: #222;
+  }
+  &__lava {
+    background-image: url("../../assets/tiles/LavaWall.png");
+    background-position: center;
+    background-size: cover;
+    background-color: #222;
+  }
+  &__pillar--1 {
+    background-image: url("../../assets/tiles/pillar1.png");
+    background-position: center;
+    background-size: cover;
+  }
+  &__pillar--2 {
+    background-image: url("../../assets/tiles/pillar2.png");
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+.void {
+  background-color: #222;
+}
+
+.sign {
+  background-image: url("../../assets/tiles/sign.png");
+  background-position: center;
+  background-size: cover;
+}
+//ANIMATE THE BACKGROUND FIGHT TILE FROM RED TO PINK
+.fight {
+  &__1 {
+    //   background-color: red;
+    
+    animation: fightBackground1 5s infinite;
+  }
+  &__2 {
+    //   background-color: red;
+    animation: fightBackground2 5s infinite;
+  }
+}
+
+.safeTile {
+  //   background-color: red;
+  animation: safeBackground 5s infinite;
+}
+@keyframes fightBackground1 {
+  0% {
+    background-color: #ffd6dd;
+  }
+  50% {
+    background-color: #ad0320;
+  }
+  100% {
+    background-color: #ffd6dd;
+  }
+}
+@keyframes fightBackground2 {
+  0% {
+    background-color: #ad0320;
+  }
+  50% {
+    background-color: #ffd6dd;
+  }
+  100% {
+    background-color: #ad0320;
+  }
+}
+
+@keyframes safeBackground {
+  0% {
+    background-color: #33b4ff;
+  }
+  25% {
+    background-color: #33fff8;
+  }
+  50% {
+    background-color: #33ffc2;
+  }
+  75% {
+    background-color: #33ff74;
+  }
+  100% {
+    background-color: #33b4ff;
+  }
+}
+.chest{
+  &__open{
+    background-image: url("../../assets/tiles/chestFull.png");
+    background-position: center;
+    background-size: cover;
+  }
+  &__closed{
+    background-image: url("../../assets/tiles/chestClosed.png");
+    background-position: center;
+    background-size: cover;
+  }
+}

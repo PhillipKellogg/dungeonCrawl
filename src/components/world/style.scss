@@ -1,0 +1,32 @@
+@import "../../Styles/Partials/fonts";
+@import "../../Styles/Partials/mixins";
+
+.game {
+  padding-top: 20px;
+  height: 90vh;
+  //   background-color: rgb(198, 244, 255);
+  background-color: #ffdeb8;
+  &__playable {
+    @media #{$tablet-horizontal} {
+      display: none;
+    }
+  }
+  &__warning {
+    // top: 0px;
+    visibility: hidden;
+    // z-index: -1;
+    color: black;
+    // color: EB9834;
+    @media #{$tablet-horizontal} {
+      visibility: visible;
+    }
+  }
+  &__title {
+    font-family: roboto;
+    text-align: center;
+    color: #222;
+
+    font-size: 3rem;
+    text-shadow: 3px 3px 5px rgb(90, 90, 90);
+  }
+}
